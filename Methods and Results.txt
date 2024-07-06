@@ -1,0 +1,31 @@
+Task 1 Method:
+
+	1. Filtered Data to have only the pincodes of Maharshtra state and saved it in new file
+	2. Filtering the Data to the known Latitudinal and Longitudinal bounds of the state
+	3. Plotting the Data as a scatter plot
+	4. Making a K-Means Algorithm (Reference in notebook)
+	5. Running the K-Means algorithm on the data with K = 36 (No. of Districts in Maharashtra)
+
+Task 2 Method:
+	
+	1. Cleaning the CV data
+	2. Splitting the data into train and test then encoding
+	3. Constructing a CNN model
+	4. Cutting the target images into respective cells (28 x 28 pixel letters)
+	5. Running each cell through the CNN model
+	6. Compiling the resultant characters into sentences
+	7. Importing Sentiment Analysis Data
+	8. Vectorizing both Sentiment Analysis Data and the compiled sentences from the CNN model
+	9. Constructing a Multinomial Naive Bayes Model and a Simple RNN
+	10. Running the vectorized data through both the models to have final results of sentiment
+
+Result Task 1:
+
+	The plotted state represents the actual state well
+	The medium to large sized districts are represented well
+	Insights in notebook
+
+Result Task 2:
+
+	Naive Bayes model gives and accuracy of 100%!
+	Simple RNN gives a relatively low accuracy of 33% - 50%...
